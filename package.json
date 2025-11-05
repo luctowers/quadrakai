@@ -1,0 +1,22 @@
+{
+  "name": "quadrakai",
+  "displayName": "Quadrakai - Protanomaly friendly 4-Color Dark Theme",
+  "description": "A minimalist dark theme with only 4 colors. Developed to be friendly for users with protanomaly color blindness.",
+  "version": "0.0.1",
+  "publisher": "luctowers",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Quadrakai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/quadrakai-theme.json"
+      }
+    ]
+  }
+}

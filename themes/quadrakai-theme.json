@@ -1,0 +1,153 @@
+{
+  "name": "Quadrakai",
+  "type": "dark",
+  // color 1: #EC407A (pink)
+  // color 2: #F9A825 (yellow) -> #F9A825
+  // color 3: #46B182 (green) -> #4CAF50
+  // color 4: #00BCD4 (cyan)
+  // comment color: #707070 (grey)
+  // bracket highlight colors: 
+  //   color 1: #F9A825 (yellow)
+  //   color 2: #E91E63 (pink)
+  //   color 3: #00ACC1 (cyan)
+  "colors": {
+    "editor.background": "#1a1a1a",
+    "editor.foreground": "#d0d0d0",
+    "editorLineNumber.foreground": "#555555",
+    "editorLineNumber.activeForeground": "#888888",
+    "editor.selectionBackground": "#264f78",
+    "editor.inactiveSelectionBackground": "#3a3d4166",
+    "editorCursor.foreground": "#d0d0d0",
+    "editor.lineHighlightBackground": "#2a2a2a",
+    "editorWhitespace.foreground": "#3a3a3a",
+    "sideBar.background": "#151515",
+    "sideBar.foreground": "#d0d0d0",
+    "sideBarSectionHeader.background": "#1a1a1a",
+    "activityBar.background": "#101010",
+    "activityBar.foreground": "#d0d0d0",
+    "statusBar.background": "#101010",
+    "statusBar.foreground": "#d0d0d0",
+    "titleBar.activeBackground": "#101010",
+    "titleBar.activeForeground": "#d0d0d0",
+    "panel.background": "#1a1a1a",
+    "terminal.background": "#1a1a1a",
+    "terminal.foreground": "#d0d0d0",
+    "editorBracketHighlight.foreground1": "#F9A825",
+    "editorBracketHighlight.foreground2": "#E91E63",
+    "editorBracketHighlight.foreground3": "#00ACC1",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+  },
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "variable.defaultLibrary": "#F9A825",
+    "function": "#00BCD4",
+    "function.decorator": "#F9A825",
+    "class": "#00BCD4",
+    "property": "#00BCD4",
+    "property.declaration": "#d0d0d0",
+    "comment": "#707070",
+    "module": "#F9A825",
+    "function.declaration": "#F9A825",
+    "class.declaration": "#F9A825",
+    "*.typeHint": "#00BCD4"
+  },
+  "tokenColors": [
+    {
+      "name": "Color 1 - PINK",
+      "scope": [
+        "keyword",
+        "storage.type.function.async",
+        "storage.type.function",
+        "storage.modifier.async",
+        "storage.type.class.python",
+        "punctuation.eq.toml",
+        "storage.type",
+        "punctuation.separator.key-value.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+      ],
+      "settings": {
+        "foreground": "#EC407A"
+      }
+    },
+    {
+      "name": "Color 2 - AMBER",
+      "scope": [
+        "entity.name.function.python",
+        "entity.name.type.class.python",
+        "entity.name.function.decorator.python",
+        "markup.heading.markdown",
+        "meta.table.toml",
+        "punctuation.definition.table.inline.toml",
+        "entity.name.tag.html",
+        "meta.selector.css",
+      ],
+      "settings": {
+        "foreground": "#F9A825"
+      }
+    },
+    {
+      "name": "Color 3 - GREEN",
+      "scope": [
+        "string",
+      ],
+      "settings": {
+        "foreground": "#66BB6A"
+      }
+    },
+    {
+      "name": "Color 4 - CYAN",
+      "scope": [
+        "variable.other.object.property.js",
+        "entity.name.function.js",
+        "meta.function-call.generic.python",
+        "meta.class.inheritance.python",
+        "support.type.python",
+        "markup.inline.raw.string.markdown",
+        "markup.bold.markdown",
+        "constant.language.json",
+        "constant.numeric.json",
+        "constant",
+        "constant.numeric",
+        "constant.language",
+        "constant.character.escape",
+        "support.constant.property-value.css",
+        "support.function.transform.css",
+        "support.function.misc.css",
+        "support.constant.font-name.css",
+        "support.type.property-name.json",
+      ],
+      "settings": {
+        "foreground": "#00BCD4"
+      }
+    },
+    {
+      "name": "Bold MarkDown",
+      "scope": [
+        "markup.bold.markdown"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Italic MarkDown",
+      "scope": [
+        "markup.italic.markdown"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Grey - Comments",
+      "scope": [
+        "comment",
+        "punctuation.terminator.rule.css",
+      ],
+      "settings": {
+        "foreground": "#707070"
+      }
+    }
+  ]
+}
