@@ -37,19 +37,20 @@
     "editorBracketHighlight.foreground3": "#00ACC1",
     "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
   },
+  "bracketPairColorization.enabled": false,
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "variable.defaultLibrary": "#F9A825",
     "function": "#00BCD4",
     "function.decorator": "#F9A825",
     "class": "#00BCD4",
-    "property": "#00BCD4",
+    "enum": "#00BCD4",
     "property.declaration": "#d0d0d0",
     "comment": "#707070",
     "module": "#F9A825",
     "function.declaration": "#F9A825",
     "class.declaration": "#F9A825",
-    "*.typeHint": "#00BCD4"
+    "*.typeHint": "#00BCD4",
   },
   "tokenColors": [
     {
@@ -116,6 +117,7 @@
         "support.function.misc.css",
         "support.constant.font-name.css",
         "support.type.property-name.json",
+        "variable.parameter.function.language.special.self.python",
       ],
       "settings": {
         "foreground": "#00BCD4"
@@ -133,7 +135,7 @@
     {
       "name": "Italic MarkDown",
       "scope": [
-        "markup.italic.markdown"
+        "markup.italic.markdown",
       ],
       "settings": {
         "fontStyle": "italic"
@@ -148,6 +150,6 @@
       "settings": {
         "foreground": "#707070"
       }
-    }
+    },
   ]
 }
